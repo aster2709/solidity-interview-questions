@@ -1,10 +1,15 @@
 # Solidity Interview Questions
 
-This is a questions list you can be faced with in a Solidity focused interview.
+This is a questions list you can be faced with in a Solidity focused interview. 
+
+---
+*Additional questions accepted via PR*
+
+*Discalimer: This is not a complete package of questions guaranteeing you a job and is definitely incomplete. Depending on what position the candidate is applying for, the questions can be different, intuitive and also out of scope*
 
 ## Questions
 
-**Blockchain/Defi Overview**
+**Blockchain/Defi Overview** [Can be skipped in a only solidity focused interview]
 
 - What is the essential difference between Bitcoin & Ethereum?
 - What is mining?
@@ -14,10 +19,13 @@ This is a questions list you can be faced with in a Solidity focused interview.
   - Proof of stake?
 - What is Staking?
   - Yield?
-  - Frontrunning?
   - Flashloans?
+  - Frontrunning?
+- What are scaling solutions?
+- Eth 2.0?
 
 **Solidity**
+
 [Base 1]
 
 - What is `mapping` datatype?
@@ -25,9 +33,8 @@ This is a questions list you can be faced with in a Solidity focused interview.
   - `internal` vs `private`
 - `view` vs `pure`
 - What is `bytes`?
-- What is `keccak256`
+- What is `keccak256`?
 - Fungible vs Non fungible
-- What are `public` visibilty mean?
 - `view` vs `pure`
 - What is `bytes`?
 - What are modifiers?
@@ -56,8 +63,24 @@ Note: _Skip moving to Base3 if the candidate's answers from Base2 are not convin
 
 [Base 3]
 
+```sh
+struct S {
+  uint a;
+}
+mapping (uint => S) map;
+function setValue() external {
+  S memory s = map[1] // assume a `struct S` at `1` exists
+  s.a = 5;
+}
+function getValue() external view returns() {
+  return map[1].value;
+}
+// what would calling `getValue()` give you?
+
+```
+- What is the `create2` assembly opcode?
 - What are proxies?
-- Have you uploaded metadata on IPFS?
 - What are AMMs
 - How would you generate a seemingly safe random number?
 - How can cross chain bridging be implemented?
+- Have you implemented royalties for an NFT?
