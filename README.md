@@ -80,6 +80,7 @@ function getValue() external view returns() {
 ```
 - What is the `create2` assembly opcode?
 - What are proxies?
+- Why can't upgradable contracts have a constructor?
 - What are AMMs
 - How would you generate a seemingly safe random number?
 - How can cross chain bridging be implemented?
