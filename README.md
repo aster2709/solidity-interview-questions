@@ -46,7 +46,7 @@ This is a questions list you can be faced with in a Solidity focused interview.
 - What frameworks have you used? - Have you written tests in typescript / using Typechain?
 
 [Base 2]
-
+- What does `_;` in modifiers mean?
 - What is forking, how can you fork mainnet?
 - What contracts from Openzeppelin have you integrated excluding token standards?
 - What is a DEX?
