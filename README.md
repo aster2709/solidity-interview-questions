@@ -35,8 +35,6 @@ This is a questions list you can be faced with in a Solidity focused interview.
 - What is `bytes`?
 - What is `keccak256`?
 - Fungible vs Non fungible
-- `view` vs `pure`
-- What is `bytes`?
 - What are modifiers?
 - `memory` vs `storage`
 - What are the popular token standards?
