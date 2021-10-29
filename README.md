@@ -42,7 +42,6 @@ This is a questions list you can be faced with in a Solidity focused interview.
 - What does `_;` in modifiers mean?
 - What is assembly in solidity;
 - What is `keccak256`?
-- What is forking, how can you fork mainnet?
 - What contracts from Openzeppelin have you integrated excluding token standards?
 - What is a DEX?
 - What does `indexed` in events mean?
@@ -58,7 +57,9 @@ Note: _Skip moving to Base3 if the candidate's answers from Base2 are not convin
 
 [Base 3]
 
-what is `delegatecall`
+
+- What is forking, how can you fork mainnet?
+- What is `delegatecall`
 ```sh
 struct S {
   uint a;
