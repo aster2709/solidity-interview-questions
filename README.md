@@ -31,12 +31,12 @@ This is a questions list you can be faced with in a Solidity focused interview.
 - What are the popular token standards?
   - Whats is the purpose for each?
 - What is a fallback function?
-- What is variable default visibility `uint a;`
 - What frameworks have you used for solidity smart contracts? 
 - Have you heard about `openzeppelin`
 
 [Base 2]
 
+- What is variable default visibility `uint a;`
 - What does `_;` in modifiers mean?
 - What is assembly in solidity;
 - What is `keccak256`?
