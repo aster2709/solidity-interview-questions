@@ -25,6 +25,7 @@ This is a questions list you can be faced with in a Solidity focused interview.
 - What does `public` visibilty mean?
   - `internal` vs `private`
 - `view` vs `pure`
+- Have you heard about `openzeppelin`
 - Fungible vs Non fungible
 - What are modifiers?
 - `memory` vs `storage`
@@ -32,7 +33,6 @@ This is a questions list you can be faced with in a Solidity focused interview.
   - Whats is the purpose for each?
 - What is a fallback function?
 - What frameworks have you used for solidity smart contracts? 
-- Have you heard about `openzeppelin`
 
 [Base 2]
 
