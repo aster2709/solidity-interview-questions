@@ -21,7 +21,7 @@ This is a questions list you can be faced with in a Solidity focused interview.
 [Base 1]
 
 - What is `mapping` datatype?
-- default values of `mappping(address => bool)` ?
+- default values in `mappping(address => bool)` ?
 - What does `public` visibilty mean?
   - `internal` vs `private`
 - `view` vs `pure`
