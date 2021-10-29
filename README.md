@@ -15,14 +15,6 @@ This is a questions list you can be faced with in a Solidity focused interview.
 - What is mining?
 - What is gas?
   - Why is gas needed?
-- Proof of work?
-  - Proof of stake?
-- What is Staking?
-  - Yield?
-  - Flashloans?
-  - Frontrunning?
-- What are scaling solutions?
-- Eth 2.0?
 
 **Solidity**
 
@@ -40,7 +32,8 @@ This is a questions list you can be faced with in a Solidity focused interview.
   - Whats is the purpose for each?
 - What is a fallback function?
 - What is variable default visibility `uint a;`
-- What frameworks have you used? 
+- What frameworks have you used for solidity smart contracts? 
+- Have you heard about `openzeppelin`
 
 [Base 2]
 
