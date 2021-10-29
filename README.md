@@ -29,22 +29,24 @@ This is a questions list you can be faced with in a Solidity focused interview.
 [Base 1]
 
 - What is `mapping` datatype?
+- default values of `mappping(address => bool)` ?
 - What does `public` visibilty mean?
   - `internal` vs `private`
 - `view` vs `pure`
-- What is `bytes`?
-- What is `keccak256`?
 - Fungible vs Non fungible
 - What are modifiers?
 - `memory` vs `storage`
 - What are the popular token standards?
   - Whats is the purpose for each?
-- What is the `receive()` function?
+- What is a fallback function?
 - What is variable default visibility `uint a;`
-- What frameworks have you used? - Have you written tests in typescript / using Typechain?
+- What frameworks have you used? 
 
 [Base 2]
+
 - What does `_;` in modifiers mean?
+- What is assembly in solidity;
+- What is `keccak256`?
 - What is forking, how can you fork mainnet?
 - What contracts from Openzeppelin have you integrated excluding token standards?
 - What is a DEX?
@@ -61,6 +63,7 @@ Note: _Skip moving to Base3 if the candidate's answers from Base2 are not convin
 
 [Base 3]
 
+what is `delegatecall`
 ```sh
 struct S {
   uint a;
@@ -73,8 +76,7 @@ function setValue() external {
 function getValue() external view returns() {
   return map[1].value;
 }
-// what would calling `getValue()` give you?
-
+// what would calling `setValue() and then getValue()` give you?
 ```
 - What is the `create2` assembly opcode?
 - What are proxies?
