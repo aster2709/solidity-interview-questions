@@ -1,11 +1,12 @@
 # Solidity Interview Questions
 
-This is a questions list you can be faced with in a Solidity focused interview. 
+This is a questions list you can be faced with in a Solidity focused interview.
 
 ---
-*Additional questions accepted via PR*
 
-*Discalimer: This is not a complete package of questions guaranteeing you a job and is definitely incomplete. Depending on what position the candidate is applying for, the questions can be different, intuitive and also out of scope*
+_Additional questions accepted via PR_
+
+_Discalimer: This is not a complete package of questions guaranteeing you a job and is definitely incomplete. Depending on what position the candidate is applying for, the questions can be different, intuitive and also out of scope_
 
 ## Questions
 
@@ -25,14 +26,15 @@ This is a questions list you can be faced with in a Solidity focused interview.
 - What does `public` visibilty mean?
   - `internal` vs `private`
 - `view` vs `pure`
-- Have you heard about `openzeppelin`
+- Have you used `openzeppelin`
 - Fungible vs Non fungible
 - What are modifiers?
 - `memory` vs `storage`
 - What are the popular token standards?
   - Whats is the purpose for each?
+- What are some of the global variables?
 - What is a fallback function?
-- What frameworks have you used for solidity smart contracts? 
+- Have you used Hardhat framework?
 
 [Base 2]
 
@@ -57,9 +59,9 @@ Note: _Skip moving to Base3 if the candidate's answers from Base2 are not convin
 
 [Base 3]
 
-
 - What is forking, how can you fork mainnet?
 - What is `delegatecall`
+
 ```sh
 struct S {
   uint a;
@@ -74,6 +76,7 @@ function getValue() external view returns() {
 }
 // what would calling `setValue() and then getValue()` give you?
 ```
+
 - What is the `create2` assembly opcode?
 - What are proxies?
 - Why can't upgradable contracts have a constructor?
