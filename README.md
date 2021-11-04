@@ -46,7 +46,6 @@ _Discalimer: This is not a complete package of questions guaranteeing you a job 
 - What are oracles?
 - What are Meta txs?
 - What are upgradable contracts?
-- Why SafeMath?
 
 Note: _Skip moving to Base3 if the candidate's answers from Base2 are not convincing, Base3 should ideally be for senior/lead dev positions_
 
