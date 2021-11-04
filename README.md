@@ -10,13 +10,6 @@ _Discalimer: This is not a complete package of questions guaranteeing you a job 
 
 ## Questions
 
-**Blockchain/Defi Overview** [Can be skipped in a only solidity focused interview]
-
-- What is the essential difference between Bitcoin & Ethereum?
-- What is mining?
-- What is gas?
-  - Why is gas needed?
-
 **Solidity**
 
 [Base 1]
