@@ -52,8 +52,9 @@ Note: _Skip moving to Base3 if the candidate's answers from Base2 are not convin
 
 [Base 3]
 
-- What is forking, how can you fork mainnet?
+- What is forking, how can you test an app on mainnet?
 - What is `delegatecall`
+  - who is `msg.sender` in a `delegatecall`?
 
 ```sh
 struct S {
@@ -71,6 +72,7 @@ function getValue() external view returns() {
 ```
 
 - What is the `create2` assembly opcode?
+  - How would you go about deploying a contract to a custom address
 - What are proxies?
 - Why can't upgradable contracts have a constructor?
 - What are AMMs
