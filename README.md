@@ -37,6 +37,7 @@ _Discalimer: This is not a complete package of questions guaranteeing you a job 
 - What does `_;` in modifiers mean?
 - What is assembly in solidity;
 - What is `keccak256`?
+- What does `abi.encodePacked` do?
 - What contracts from Openzeppelin have you integrated excluding token standards?
 - What is a DEX?
 - What does `indexed` in events mean?
