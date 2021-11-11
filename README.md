@@ -53,6 +53,7 @@ Note: _Skip moving to Base3 if the candidate's answers from Base2 are not convin
 [Base 3]
 
 - What is forking, how can you test an app on mainnet?
+- `call` vs `staticcall` 
 - What is `delegatecall`
   - who is `msg.sender` in a `delegatecall`?
 
