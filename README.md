@@ -63,7 +63,7 @@ struct S {
 }
 mapping (uint => S) map;
 function setValue() external {
-  S memory s = map[1] // assume a `struct S` at `1` exists
+  S memory s = map[1]
   s.a = 5;
 }
 function getValue() external view returns() {
