@@ -67,7 +67,7 @@ function setValue() external {
   s.a = 5;
 }
 function getValue() external view returns() {
-  return map[1].value;
+  return map[1].a;
 }
 // what would calling `setValue() and then getValue()` give you?
 ```
