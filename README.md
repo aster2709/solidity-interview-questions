@@ -66,7 +66,7 @@ function setValue() external {
   S memory s = map[1]
   s.a = 5;
 }
-function getValue() external view returns() {
+function getValue() external view returns(uint256) {
   return map[1].a;
 }
 // what would calling `setValue() and then getValue()` give you?
