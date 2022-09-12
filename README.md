@@ -40,8 +40,8 @@ _Discalimer: This is not a complete package of questions guaranteeing you a job 
 - What is `keccak256`?
 - What does `abi.encodePacked` do?
 - What contracts from Openzeppelin have you integrated excluding token standards?
-- What is a DEX?
 - What does `indexed` in events mean?
+  - how many indexed params are permitted?
 - Random number in the contract?
 - `transfer` vs `send` vs `call`
 - What is re-entrancy?
