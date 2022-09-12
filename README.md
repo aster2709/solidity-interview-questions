@@ -58,7 +58,7 @@ struct S {
 }
 mapping (uint => S) map;
 function setValue() external {
-  S memory s = map[1]
+  S memory s = map[1];
   s.a = 5;
 }
 function getValue() external view returns(uint256) {
