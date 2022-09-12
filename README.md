@@ -42,23 +42,17 @@ _Discalimer: This is not a complete package of questions guaranteeing you a job 
 - What contracts from Openzeppelin have you integrated excluding token standards?
 - What does `indexed` in events mean?
   - how many indexed params are permitted?
-- Random number in the contract?
+```sol
+contract A {}
+```
+- ^Can you send ether to the above contract?
 - `transfer` vs `send` vs `call`
 - What is re-entrancy?
 - What are oracles?
 - What are Meta txs?
 - What are upgradable contracts?
-
-Note: _Skip moving to Base3 if the candidate's answers from Base2 are not convincing, Base3 should ideally be for senior/lead dev positions_
-
-[Base 3]
-
-- What is forking, how can you test an app on mainnet?
-- `call` vs `staticcall` 
-- What is `delegatecall`
-  - who is `msg.sender` in a `delegatecall`?
-
-```sh
+- Have you interacted with any popular protocols programatically?
+```sol
 struct S {
   uint a;
 }
@@ -70,14 +64,21 @@ function setValue() external {
 function getValue() external view returns(uint256) {
   return map[1].a;
 }
-// what would calling `setValue() and then getValue()` give you?
 ```
+- ^What would calling `setValue() and then getValue()` return?
 
+Note: _Skip moving to Base3 if the candidate's answers from Base2 are not convincing, Base3 should ideally be for senior/lead dev positions_
+
+[Base 3]
+
+- What does the memory address `0x40` point to?
+- Can you change the visibility of a variable in an upgradeable contract?
+- What is a `stack too deep` error and when can it occur?
+  - Ways to resolve it?
+- How can you simulate transactions from someone else's address? 
+- What is `delegatecall`
+  - Who is `msg.sender` in a `delegatecall`?
+- Have you interacted with uniswap v3 oracle?
 - What is the `create2` assembly opcode?
-  - How would you go about deploying a contract to a custom address
-- What are proxies?
-- Why can't upgradable contracts have a constructor?
-- What are AMMs
+- What are proxy contracts?
 - How would you generate a seemingly safe random number?
-- How can cross chain bridging be implemented?
-- Have you implemented royalties for an NFT?
