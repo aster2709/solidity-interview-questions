@@ -27,7 +27,8 @@ _Discalimer: This is not a complete package of questions guaranteeing you a job 
   - Whats is the purpose for each?
 - What are some of the global variables?
 - What is a fallback function?
-- Have you used Hardhat framework?
+- What solidity framework do you use?
+  - How familiar are you with writing test suites
 
 [Base 2]
 
